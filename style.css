@@ -1,0 +1,112 @@
+footer{
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+.footer_left{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer_right{
+  position: absolute;
+  bottom: 0;
+  right: 180px
+}
+p{
+  margin-right: 20px;
+}
+.footer_left p:last-child{
+  margin-right: 1100px;
+}
+.footer_left p:first-child{
+  margin-left: 10px;
+}
+footer p{
+  color:  	#2F4F4F;
+  font: Arial;
+  font-size: 14px;
+}
+footer p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.main_image{
+  position: absolute;
+  top: 80px;
+  left: 410px;
+}
+.logo{
+position: absolute; /* or absolute */
+  top: 29%;
+  left: 40%;
+}
+.searchbox{
+width: 585px;
+height: 33px;
+border-radius: 1px;
+font-size: 20px;
+position: absolute;
+top: 48%;
+left: 29%;
+box-shadow: grey;
+}
+.GoogleSearch{
+  height: 33px;
+  border-radius: 3px;
+font:14px arial,sans-serif;
+border-color: #fff;
+position: absolute;
+top: 60%;
+left: 40%;
+width: 125px;
+}
+.Lucky{
+height: 33px;
+border-radius: 3px;
+font:14px arial,sans-serif;
+border-color: #fff;
+position: absolute;
+top: 60%;
+left: 50%;
+width: 150px;
+}
+header{
+    display: flex;
+  justify-content: center;
+  color:  	#2F4F4F;
+  font: Arial;
+  font-size: 14px;
+  position: fixed;
+  top: 2%;
+  right: 10%;
+}
+.app{
+  opacity: 0.85;
+  position: fixed;
+  top: 3.5%;
+  right: 9%;
+}
+.app:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+header p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sign{
+    position: absolute;
+  top: 4%;
+  left: 135%;
+  height: 30px;
+  border-radius: 1px;
+  border-color: #4D90FE;
+  background-color: #4D90FE;
+  color: white;
+  font-weight: bold;
+  font: Arial;
+  }
